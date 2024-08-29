@@ -1,0 +1,44 @@
+---
+title: "Data, Science, Machine, Man, GOD, what does it mean..."
+format: html
+editor: visual
+editor_options: 
+  chunk_output_type: console
+---
+
+## What does it mean to be a data scientist?
+
+Being a data scientist requires an understanding of how to analyze and manipulate data for a variety of tasks, traditionally trained in a way more suited for private sector/industry work. Data scientist need to be adept at using statistical software not only to analysis the data, but also for making it into a format that is usable and efficient in terms of resources and processing.
+
+## Data Science vs Statistics
+
+Data science and statistics are two field that are intimately linked with one another, albeit with different focuses. Data science is more focused on the management of data using statistical software while statistics is more focused on the analysis of data using mathematical models. In a way it can be thought of as the difference between an applied and theoretical science, in which data science would be the applied science and statistics the theoretical science. Overall, both fields are quite similar and utilize similar/the same practices. software, techniques, and theories.
+
+## Where do I fall in?
+
+I would consider myself as falling more on the side of statistics for the following reasons:
+
+-   My career goals are to work in research, specifically on topics somewhere in between psychology and social work
+
+-   I'm more interested in using statistical software to answer questions and hopefully run my own research projects one day
+
+-   I enjoy learning about statistics a bit more than the coding aspect as coding is a bit more daunting of a field
+
+## Iris Petal Analysis
+
+### Using R to determine the type, structure, and class of y for the density of petal width
+
+```{r}
+y <- density(iris$Petal.Width)
+typeof(y)
+str(y)
+class(y)
+
+```
+
+### Plot of Petal Width Density
+
+```{r}
+#| echo: false
+plot(y)
+```
